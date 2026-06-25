@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <title>Smech Labs logo</title>
+  <!-- Hand-authored, inspired by the SmechOS gear+letterform mark: a
+       circular badge ringed with gear teeth, navy line-art, with a bold
+       geometric monogram in place of SmechOS's single "S". -->
+  <g fill="none" stroke="#16213a" stroke-width="10" stroke-linejoin="round">
+    <!-- gear teeth -->
+    <path fill="#16213a" stroke="none" d="M 281.7,151.4 L 308.0,160.0 L 281.7,168.6 Z M 275.7,198.6 L 296.7,216.6 L 269.1,214.5 Z M 252.1,240.0 L 264.7,264.7 L 240.0,252.1 Z M 214.5,269.1 L 216.6,296.7 L 198.6,275.7 Z M 168.6,281.7 L 160.0,308.0 L 151.4,281.7 Z M 121.4,275.7 L 103.4,296.7 L 105.5,269.1 Z M 80.0,252.1 L 55.3,264.7 L 67.9,240.0 Z M 50.9,214.5 L 23.3,216.6 L 44.3,198.6 Z M 38.3,168.6 L 12.0,160.0 L 38.3,151.4 Z M 44.3,121.4 L 23.3,103.4 L 50.9,105.5 Z M 67.9,80.0 L 55.3,55.3 L 80.0,67.9 Z M 105.5,50.9 L 103.4,23.3 L 121.4,44.3 Z M 151.4,38.3 L 160.0,12.0 L 168.6,38.3 Z M 198.6,44.3 L 216.6,23.3 L 214.5,50.9 Z M 240.0,67.9 L 264.7,55.3 L 252.1,80.0 Z M 269.1,105.5 L 296.7,103.4 L 275.7,121.4 Z" />
+    <!-- outer ring -->
+    <circle cx="160" cy="160" r="118" />
+  </g>
+  <!-- "SL" monogram, bold geometric strokes matching the angular-cut style
+       of the original mark's "S" -->
+  <g fill="none" stroke="#16213a" stroke-width="14" stroke-linecap="square" stroke-linejoin="round">
+    <!-- S -->
+    <path d="M 148,118
+             C 122,118 108,130 108,148
+             C 108,166 124,172 142,176
+             C 160,180 176,186 176,204
+             C 176,222 162,234 136,234
+             C 118,234 106,228 100,218" />
+    <!-- angular notch cut into the top of the S, echoing the original mark -->
+    <path d="M 140,118 L 168,118 L 156,138 L 176,138" />
+    <!-- L -->
+    <path d="M 196,122 L 196,222 L 232,222" />
+  </g>
+</svg>

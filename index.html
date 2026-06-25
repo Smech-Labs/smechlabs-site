@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smech Labs</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#home">
+      <img class="brand-logo" src="logo.svg" alt="Smech Labs logo">
+      <span class="brand-name">Smech Labs</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-outline header-cta" href="https://github.com/Smech-Labs" target="_blank" rel="noopener">GitHub</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1>Smech Labs</h1>
+      <p class="hero-sub">An independent software lab building its own tools, end to end.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See the Projects</a>
+        <a class="btn btn-outline" href="https://github.com/Smech-Labs" target="_blank" rel="noopener">GitHub Org</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>What Smech Labs Is</h2>
+    <p>Smech Labs is the organization behind SmechOS and its surrounding
+       tooling. The work here favors building things from the ground up --
+       an independent operating system, its own package manager, its own
+       installer -- over assembling existing components and calling it
+       finished.</p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <h3>SmechOS</h3>
+        <p>An independent Linux distribution with its own custom build
+           system, the <code>spk</code> package manager, and a KDE Plasma 6
+           desktop.</p>
+        <a class="btn btn-outline" href="https://smech-labs.github.io/smechos-site/" target="_blank" rel="noopener">Visit SmechOS</a>
+      </article>
+      <article class="feature-card">
+        <h3>SmechDeploy</h3>
+        <p>The build tooling and source behind SmechOS -- kernel compilation,
+           the installer, package builds, and everything in between.</p>
+        <a class="btn btn-outline" href="https://github.com/Smech-Labs/SmechDeploy" target="_blank" rel="noopener">View Source</a>
+      </article>
+      <article class="feature-card">
+        <h3>spk</h3>
+        <p>SmechOS's own package manager, built for this distro specifically
+           rather than adapted from another one.</p>
+        <a class="btn btn-outline" href="https://github.com/Smech-Labs/SmechDeploy/tree/main/repo-packs" target="_blank" rel="noopener">View Source</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Follow the Work</h2>
+    <p>Bug reports and feature requests for SmechOS are tracked separately
+       from the source itself.</p>
+    <a class="btn btn-primary" href="https://github.com/Smech-Labs/smechos-issues" target="_blank" rel="noopener">SmechOS Issue Tracker</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <img class="footer-logo" src="logo.svg" alt="Smech Labs logo">
+  <p class="footer-brand">Smech Labs</p>
+  <p><a href="https://github.com/Smech-Labs" target="_blank" rel="noopener">github.com/Smech-Labs</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
