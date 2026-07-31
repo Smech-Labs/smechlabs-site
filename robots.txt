@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://labs.smech.xyz/sitemap.xml
